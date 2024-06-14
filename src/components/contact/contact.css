@@ -1,0 +1,188 @@
+.connect {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+
+
+}
+
+#contact {
+
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    margin-bottom: 5rem;
+
+}
+
+.toast {
+    z-index: 9999;
+    /* Ensure it is on top of other elements */
+    position: fixed;
+    /* Make sure it's fixed on the screen */
+    top: 1rem;
+    /* Adjust positioning as needed */
+    right: 1rem;
+    /* Adjust positioning as needed */
+    pointer-events: none;
+    /* Make sure it does not block other interactions */
+}
+
+.contact__container {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 3rem;
+    padding-bottom: 0rem;
+}
+
+.contact__title {
+    text-align: center;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1-5);
+}
+
+.contact__info {
+    display: grid;
+    row-gap: 2;
+    grid-template-columns: 300px;
+}
+
+.contact__form {
+    width: 360px;
+}
+
+.contact__card {
+    background-color: var(--box-background);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.368);
+    padding: 1.2rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.75rem;
+    text-align: center;
+    transition: .4s;
+
+}
+
+.contact__card:hover {
+    box-shadow: 0 0 8px rgb(0, 163, 188);
+    transform: scale(1.03);
+}
+
+.contact__card-icon {
+    font-size: 1.8rem;
+    color: var(--title-color);
+    margin-bottom: var(--mb-0-25);
+}
+
+.contact__card-title,
+.contact__card-data {
+    font-size: var(--small-font-size);
+}
+
+.contact__card-title {
+    font-weight: var(--font-medium);
+}
+
+#message {
+    font-size: 0.7rem;
+
+}
+
+.contact__button {
+    color: rgb(0, 163, 188);
+    font-size: var(--small-font-size);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25rem;
+}
+
+.contact__card-data {
+
+    display: block;
+    margin-bottom: var(--mb-0-75);
+}
+
+.contact__button-icon {
+    font-size: 1rem;
+    transition: 0.4s;
+}
+
+.contact__button-icon:hover {
+    transform: translate(0.25rem);
+}
+
+.contact__form-div {
+    position: relative;
+    margin-bottom: var(--mb-2);
+    height: 4rem;
+}
+
+.contact__form-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(103, 103, 103);
+    background: transparent;
+    color: var(--text-color);
+    outline: none;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    z-index: 1;
+}
+
+.contact__form-tag {
+    position: absolute;
+    top: -0.80rem;
+    left: 1.25rem;
+    font-size: var(--smaller-font-size);
+    padding: 0.25rem;
+    background-color: var(--box-background);
+    border-radius: 1.2rem;
+    z-index: 10;
+    color: rgb(0, 163, 188);
+}
+
+.contact__form-area {
+    height: 11rem;
+}
+
+/*-- Breakpoints--*/
+/*-- for large devices--*/
+@media screen and (max-width: 992px) {
+    .contact__container {
+        column-gap: 3rem;
+    }
+}
+
+/*-- for medium devices--*/
+@media screen and (max-width: 768px) {
+    .contact__container {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+
+    .contact__info {
+        justify-content: center;
+    }
+
+    .contact__form {
+        margin: 0 auto;
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .contact__info {
+        grid-template-columns: 1fr;
+    }
+
+    .contact__form {
+        width: 100%;
+    }
+}
+
+/*-- For small devices--*/
+@media screen and (max-width: 350px) {}

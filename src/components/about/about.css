@@ -1,0 +1,166 @@
+.about__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+    color: var(--text-color);
+    height: 650px;
+    padding-bottom: 4rem;
+
+
+
+
+}
+
+section#about {
+    padding-bottom: 2rem;
+    padding-top: 7rem;
+
+
+}
+
+.about__img {
+    width: 350px;
+    border-radius: 12rem;
+    justify-self: center;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 0 0 15px rgb(0, 163, 188);
+    transition: 0.4s;
+
+
+}
+
+.about__img:hover {
+
+    transform: scale(1.07);
+}
+
+.about__info {
+    grid-template-columns: repeat(3, 140px);
+    gap: 0.5rem;
+    margin-bottom: var(--mb-2);
+}
+
+.about__box {
+    background-color: var(--box-background);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.368);
+    border-radius: 0.8rem;
+    text-align: center;
+    padding: 1rem 1.25rem;
+    transition: 0.4s;
+}
+
+
+div.about__box:hover {
+    transform: scale(1.06);
+    box-shadow: 0 0 5px rgb(0, 163, 188);
+    cursor: pointer;
+}
+
+
+.about__icon {
+    font-size: 1.5rem;
+    color: rgb(0, 163, 188);
+    margin-bottom: var(--mb-0-5);
+}
+
+.about__title {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+}
+
+.about__subtitle {
+    font-size: var(--tiny-font-size);
+
+}
+
+.about__description {
+    padding: 0 4rem 0 0;
+    margin-bottom: var(--mb-2-5);
+
+}
+
+h2.section__title {
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+
+
+
+div.about_me {
+    padding-bottom: 1.5rem;
+}
+
+.about_me {
+    text-align: center;
+    padding-bottom: 2.5rem;
+    letter-spacing: 2px;
+
+}
+
+span.section__subtitle {
+    letter-spacing: 0;
+    font-size: 1.2rem;
+    color: rgb(0, 163, 188);
+    padding-bottom: 0;
+}
+
+/*-- Breakpoints--*/
+/*-- for large devices--*/
+@media screen and (max-width: 992px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        row-gap: 2.5rem;
+    }
+
+    .about__img {
+        width: 220px;
+    }
+
+    .about__box {
+        padding: 0.75rem 0.5rem;
+    }
+
+    .about__data {
+        text-align: center;
+    }
+
+    .about__info {
+        justify-content: center;
+    }
+
+    .about__description {
+        padding: 0 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .about_me {
+        padding-top: 1rem;
+    }
+
+
+}
+
+/*-- for medium devices--*/
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {
+    .about__info {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about__description {
+        padding: 0;
+    }
+
+
+}
+
+/*-- For small devices--*/
+@media screen and (max-width: 350px) {
+    .about__info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+}
