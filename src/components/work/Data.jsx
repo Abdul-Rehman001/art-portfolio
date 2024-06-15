@@ -36,8 +36,8 @@ export const projectsData = [
     image: Work4,
     title: "Portfolio Website",
     category: "web",
-    demoLink: "https://the-wild-oasis-khaki.vercel.app",
-    githubLink: "https://github.com/Abdul-Rehman001/the-wild-oasis",
+    demoLink: "https://art-portfolio-swart.vercel.app/",
+    githubLink: "https://github.com/Abdul-Rehman001/art-portfolio",
   },
 ];
 
