@@ -27,16 +27,25 @@
     transform: scale(1.1);
 }
 
-.work__container {
+div.work__container.container.grid {
 
-    grid-template-columns: repeat(2, max-content);
-    gap: 3rem;
-    justify-content: center;
+    padding-top: 2rem;
 }
 
+.work__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    justify-content: center;
+    padding: 0 1rem;
+    /* Ensure some padding to prevent overflow */
+}
 
 .work__card {
-    width: 400px;
+    width: 100%;
+    /* Make width 100% to be responsive */
+    max-width: 400px;
+    /* Set a maximum width */
     background-color: var(--box-background);
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.368);
     padding: 1.25rem;
@@ -51,9 +60,18 @@
 
 .work__img {
     width: 100%;
-    height: 295px;
+    height: auto;
+    /* Let height adjust automatically */
+    max-height: 295px;
     border-radius: 1rem;
     margin-bottom: var(--mb-1);
+    transition: .4s ease;
+}
+
+.work__img:hover {
+    padding: 1.2rem;
+    border-radius: 1rem;
+    background-color: rgba(0, 163, 188, 0.459);
 }
 
 .work__title {
@@ -112,23 +130,39 @@
 /*-- for medium devices--*/
 @media screen and (max-width: 768px) {
     .work__container {
-        grid-template-columns: max-content;
+        grid-template-columns: 1fr;
+        /* Adjust to a single column */
+        gap: 1.25rem;
+        justify-items: center;
+        /* Adjust gap for smaller screens */
     }
 }
 
 @media screen and (max-width: 576px) {
     .work__container {
-        grid-template-columns: 1fr;
+        padding: 1.5rem;
+        gap: 1rem;
+        /* Adjust gap for smaller screens */
     }
 
     .work__img {
         width: 100%;
+        height: auto;
+        /* Ensure the height is auto */
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .work__container {
+        padding: 1rem;
+        /* Adjust padding for smaller screens */
+        gap: 1rem;
+        /* Adjust gap for smaller screens */
     }
 }
 
 /*-- For small devices--*/
 @media screen and (max-width: 350px) {
-
     .work__item {
         font-size: var(--small-font-size);
     }
