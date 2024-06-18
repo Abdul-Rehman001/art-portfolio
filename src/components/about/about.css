@@ -20,24 +20,28 @@ section#about {
 
 .about__img {
     width: 350px;
-    border-radius: 12rem;
+    border-radius: 3rem;
     justify-self: center;
-    border: 3px solid rgb(255, 255, 255);
-    box-shadow: 0 0 15px rgb(0, 163, 188);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.512);
+
     transition: 0.4s;
 
 
 }
 
 .about__img:hover {
-
-    transform: scale(1.07);
+    box-shadow: 0 0 15px rgb(0, 163, 188);
+    transform: scale(1.04);
 }
 
 .about__info {
     grid-template-columns: repeat(3, 140px);
     gap: 0.5rem;
     margin-bottom: var(--mb-2);
+}
+
+.support {
+    color: var(--text-color);
 }
 
 .about__box {

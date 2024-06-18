@@ -41,14 +41,9 @@ const About = () => {
       </div>
 
       <div className="about__container container grid">
-        <motion.img
-          src={AboutImg}
-          alt=""
-          className="about__img"
-          whileHover={{ scale: 1.1 }}
-        />
+        <img src={AboutImg} alt="" className="about__img" />
 
-        <motion.div className="about__data" whileHover={{ scale: 1.1 }}>
+        <div className="about__data">
           <Info />
           <p className="about__description">
             I am a passionate front-end developer, I have a solid foundation in
@@ -84,7 +79,7 @@ const About = () => {
               ></path>
             </svg>
           </a>
-        </motion.div>
+        </div>
       </div>
     </motion.section>
   );

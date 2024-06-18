@@ -47,7 +47,7 @@ const Footer = () => {
           </a>
         </div>
         <span className="footer__copy">
-          &#169; Abdul Rehman. All rigths reserved
+          &#169; Abdul Rehman. All rights reserved
         </span>
       </div>
     </footer>
