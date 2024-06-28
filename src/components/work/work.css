@@ -78,6 +78,15 @@ div.work__container.container.grid {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-5);
+
+}
+
+.work_desc {
+    font-size: small;
+    color: rgb(0, 163, 188);
+
+    padding-bottom: 1rem;
+
 }
 
 .work__button {

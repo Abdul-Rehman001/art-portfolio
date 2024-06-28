@@ -5,6 +5,7 @@ const WorkItem = ({ item }) => {
     <div className="work__card" key={item.id}>
       <img src={item.image} alt={item.title} className="work__img" />
       <h3 className="work__title">{item.title}</h3>
+      <p className="work_desc">{item.description}</p>
       <a
         href={item.githubLink}
         className="work__button"
