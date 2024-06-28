@@ -11,7 +11,7 @@ export const projectsData = [
     title: "Prompter",
     category: "all",
     description:
-      "AI Prompt Sharing and Creating platform with integrated AI chat system. Made with Next.js and Tailwind CSS",
+      "AI Prompt Sharing and Creating platform with integrated AI chat system. Made with Next.js and Tailwind CSS.",
     demoLink: "https://prompter-orpin.vercel.app/",
     githubLink: "https://github.com/Abdul-Rehman001/prompter",
   },
@@ -21,7 +21,7 @@ export const projectsData = [
     title: "Portfolio Website",
     category: "web",
     description:
-      "A responsive and minimal Portfolio website build with the help of React.js.",
+      "A Responsive and Minimal Portfolio website build with the help of React.js.",
     demoLink: "https://art-portfolio-swart.vercel.app/",
     githubLink: "https://github.com/Abdul-Rehman001/art-portfolio",
   },
@@ -31,7 +31,7 @@ export const projectsData = [
     title: "The Wild Oasis",
     category: "web",
     description:
-      "An Administrative hotel management system, build with React.js and Supabase as a backend. Provides realtime data in form of graphs",
+      "An Administrative hotel management system, build with React.js and Supabase as a backend.",
     demoLink: "https://the-wild-oasis-khaki.vercel.app",
     githubLink: "https://github.com/Abdul-Rehman001/the-wild-oasis",
   },
@@ -41,7 +41,7 @@ export const projectsData = [
     title: "React Pizza",
     category: "app",
     description:
-      "Pizza ordering app with realtime location access, build with React.js and styled with Tailwind CSSS",
+      "Pizza ordering app with realtime location access, build with React.js and styled with Tailwind CSS",
     demoLink: "https://abdul-rehman001.github.io/react-pizza/",
     githubLink: "https://github.com/Abdul-Rehman001/react-pizza",
   },
