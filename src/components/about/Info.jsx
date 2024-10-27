@@ -4,8 +4,8 @@ const Info = () => {
       <div className="about__box">
         <i class="bx bx-award about__icon"></i>
 
-        <h3 className="about__title">B.Tech</h3>
-        <span className="about__subtitle">In Computer Science</span>
+        <h3 className="about__title">Exprience</h3>
+        <span className="about__subtitle">1+ Year</span>
       </div>
 
       <div className="about__box">

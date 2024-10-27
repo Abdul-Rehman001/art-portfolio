@@ -3,20 +3,31 @@ import Work2 from "../../assets/work2.jpg";
 import Work3 from "../../assets/work3.jpg";
 import Work4 from "../../assets/work4.jpg";
 import Work5 from "../../assets/work5.jpg";
+import Work6 from "../../assets/Work6.png";
 
 export const projectsData = [
   {
     id: 1,
+    image: Work6,
+    title: "Alazka Solutions",
+    category: "web",
+    description:
+      "Alazka.ai is a platform offering AI-driven solutions to streamline customer support and optimize business workflows, helping companies deliver exceptional customer experiences and improve efficiency.",
+    demoLink: "https://alazka.ai/",
+    githubLink: "https://github.com/Abdul-Rehman001",
+  },
+  {
+    id: 2,
     image: Work5,
     title: "Prompter",
-    category: "all",
+    category: "web",
     description:
       "AI Prompt Sharing and Creating platform with integrated AI chat system. Made with Next.js and Tailwind CSS.",
     demoLink: "https://prompter-orpin.vercel.app/",
     githubLink: "https://github.com/Abdul-Rehman001/prompter",
   },
   {
-    id: 2,
+    id: 3,
     image: Work4,
     title: "Portfolio Website",
     category: "web",
@@ -26,7 +37,7 @@ export const projectsData = [
     githubLink: "https://github.com/Abdul-Rehman001/art-portfolio",
   },
   {
-    id: 3,
+    id: 4,
     image: Work1,
     title: "The Wild Oasis",
     category: "web",
@@ -36,7 +47,7 @@ export const projectsData = [
     githubLink: "https://github.com/Abdul-Rehman001/the-wild-oasis",
   },
   {
-    id: 4,
+    id: 5,
     image: Work2,
     title: "React Pizza",
     category: "app",
@@ -46,7 +57,7 @@ export const projectsData = [
     githubLink: "https://github.com/Abdul-Rehman001/react-pizza",
   },
   {
-    id: 5,
+    id: 6,
     image: Work3,
     title: "React Flix",
     category: "design",

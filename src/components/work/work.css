@@ -38,7 +38,7 @@ div.work__container.container.grid {
     gap: 1.25rem;
     justify-content: center;
     padding: 0 1rem;
-    /* Ensure some padding to prevent overflow */
+
 }
 
 .work__card {
